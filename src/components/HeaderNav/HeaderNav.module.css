@@ -1,0 +1,10 @@
+.headerNav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.servicesNav {
+    display: flex;
+
+}
