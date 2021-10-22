@@ -134,7 +134,14 @@ h1 {
 }
 
 h3 {
-  font-size: .8em;
+  font-size: 0.8em;
+}
+
+a,
+a:active,
+a:visited {
+  color: #8cc1e5;
+  text-decoration: none;
 }
 
 label {
