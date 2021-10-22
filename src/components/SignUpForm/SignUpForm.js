@@ -1,6 +1,7 @@
 import { useState } from "react";
 import FormHeader from "../FormHeader/FormHeader";
 import FormFooter from "../FormFooter/FormFooter";
+import style from "./SignUpForm.module.css";
 
 const SignUpForm = () => {
   const [email, setEmail] = useState("");
@@ -8,7 +9,7 @@ const SignUpForm = () => {
   const [pass, setPass] = useState("");
   const [confirm, setConfirm] = useState("");
   return (
-    <form>
+    <form className={style.signUpForm}>
       <FormHeader />
       <label>
         Email address

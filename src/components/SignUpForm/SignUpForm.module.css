@@ -1,0 +1,11 @@
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  min-width: 380px;
+  max-width: 380px;
+  min-height: 815px;
+  max-height: 815px;
+  background-color: white;
+  justify-content: space-around;
+  border: 1px solid lightgray;
+}
