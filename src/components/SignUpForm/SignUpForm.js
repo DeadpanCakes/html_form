@@ -1,4 +1,5 @@
 import { useState } from "react";
+import FormHeader from "../FormHeader/FormHeader";
 import FormFooter from "../FormFooter/FormFooter";
 
 const SignUpForm = () => {
@@ -8,6 +9,7 @@ const SignUpForm = () => {
   const [confirm, setConfirm] = useState("");
   return (
     <form>
+      <FormHeader />
       <label>
         Email address
         <input
