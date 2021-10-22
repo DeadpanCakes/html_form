@@ -137,6 +137,11 @@ h3 {
   font-size: 0.8em;
 }
 
+p {
+  font-size: 0.8em;
+  color: rgb(180, 180, 180);
+}
+
 a,
 a:active,
 a:visited {
