@@ -1,4 +1,5 @@
 import { useState } from "react";
+import FormFooter from "../FormFooter/FormFooter";
 
 const SignUpForm = () => {
   const [email, setEmail] = useState("");
@@ -39,6 +40,7 @@ const SignUpForm = () => {
           onChange={(e) => setConfirm(e.target.value)}
         />
       </label>
+      <FormFooter />
     </form>
   );
 };
