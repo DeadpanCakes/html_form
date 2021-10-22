@@ -8,6 +8,7 @@
   background-color: white;
   justify-content: space-around;
   border: 1px solid lightgray;
+  align-self: center;
 }
 
 .signUpBtn {
