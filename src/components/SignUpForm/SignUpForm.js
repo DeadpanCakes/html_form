@@ -11,43 +11,45 @@ const SignUpForm = () => {
   return (
     <form className={style.signUpForm}>
       <FormHeader />
-      <div className={style.labeledInput}>
-        <label for="signUpEmail">Email address</label>
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          id="signUpEmail"
-        />
-      </div>
-      <div className={style.labeledInput}>
-        <label for="signUpPhone">Phone (recommended)</label>
-        <input
-          type="phone"
-          value={phone}
-          onChange={(e) => setPhone(e.target.value)}
-          id="signUpPhone"
-        />
-      </div>
-      <div className={style.labeledInput}>
-        <label for="signUpPass">Password</label>
-        <input
-          type="password"
-          value={pass}
-          onChange={(e) => setPass(e.target.value)}
-          id="signUpPass"
-        />
-      </div>
-      <div className={style.labeledInput}>
-        <label for="signUpConfirm">Confirm</label>
-        <input
-          type="password"
-          value={confirm}
-          onChange={(e) => setConfirm(e.target.value)}
-          id="signUpConfirm"
-        />
-      </div>
-      <button className={style.signUpBtn}>Create Account</button>
+      <fieldset className={style.signUpFields}>
+        <div className={style.labeledInput}>
+          <label for="signUpEmail">Email address</label>
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            id="signUpEmail"
+          />
+        </div>
+        <div className={style.labeledInput}>
+          <label for="signUpPhone">Phone (recommended)</label>
+          <input
+            type="phone"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+            id="signUpPhone"
+          />
+        </div>
+        <div className={style.labeledInput}>
+          <label for="signUpPass">Password</label>
+          <input
+            type="password"
+            value={pass}
+            onChange={(e) => setPass(e.target.value)}
+            id="signUpPass"
+          />
+        </div>
+        <div className={style.labeledInput}>
+          <label for="signUpConfirm">Confirm</label>
+          <input
+            type="password"
+            value={confirm}
+            onChange={(e) => setConfirm(e.target.value)}
+            id="signUpConfirm"
+          />
+        </div>
+        <button className={style.signUpBtn}>Create Account</button>
+      </fieldset>
       <FormFooter />
     </form>
   );
