@@ -49,6 +49,15 @@ const SignUpForm = () => {
           />
         </div>
         <button className={style.signUpBtn}>Create Account</button>
+        <p>
+          By selecting Create Account, you agree to our{" "}
+          <a href="https://mint.intuit.com/terms">Terms</a> and have read and
+          acknowledge our{" "}
+          <a href="https://www.intuit.com/privacy/statement/">
+            Global Privacy Statement
+          </a>
+          .
+        </p>
       </fieldset>
       <FormFooter />
     </form>
