@@ -1,14 +1,15 @@
 .signUpForm {
   display: flex;
   flex-direction: column;
-  min-width: 380px;
-  max-width: 380px;
+  min-width: 320px;
+  max-width: 320px;
   min-height: 815px;
   max-height: 815px;
   background-color: white;
   justify-content: space-around;
   border: 1px solid lightgray;
   align-self: center;
+  padding: 40px;
 }
 
 .signUpBtn {
