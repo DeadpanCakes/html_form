@@ -9,7 +9,7 @@ const PageHeader = () => {
           </a>
         </h3>
       </hgroup>
-      <button></button>
+      <button>Sign In</button>
     </header>
   );
 };
