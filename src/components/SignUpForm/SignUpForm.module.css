@@ -9,3 +9,7 @@
   justify-content: space-around;
   border: 1px solid lightgray;
 }
+
+.signUpBtn {
+  align-self: center;
+}
