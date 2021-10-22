@@ -17,7 +17,7 @@ const SignUpForm = () => {
         />
       </label>
       <label>
-        Phone
+        Phone (recommended)
         <input
           type="phone"
           value={phone}
