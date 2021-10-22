@@ -40,6 +40,7 @@ const SignUpForm = () => {
           onChange={(e) => setConfirm(e.target.value)}
         />
       </label>
+      <button>Create Account</button>
       <FormFooter />
     </form>
   );
