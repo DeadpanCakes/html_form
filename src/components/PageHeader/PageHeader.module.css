@@ -1,0 +1,23 @@
+.pageHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.accountCtrls {
+  display: flex;
+  align-self: flex-end;
+  margin: 15px;
+}
+
+.accountTxt > * {
+  padding: 3px;
+}
+
+.signInBtn {
+  color: white;
+  background-color: #0077c5;
+  border-radius: 3px;
+  border: none;
+  border: 1px solid #003253;
+  min-width: 80px
+}
